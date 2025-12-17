@@ -1,8 +1,13 @@
 {
   "name": "matrix-dawn-color-theme",
   "version": "0.1.0",
-  "description": "Matrix color theme",
-  "main": "index.js",
+  "license": "MIT",
+  "publisher": "Derek",
+  "description": "Matrix feel VS Code color theme, tailored for daily TS/JS coding",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dk00/matrix-dawn"
+  },
   "categories": [
     "Themes"
   ],
@@ -12,11 +17,10 @@
   "contributes": {
     "themes": [
       {
-        "label": "Matrix",
+        "label": "Matrix Dawn",
         "uiTheme": "vs-dark",
         "path": "./themes/matrix-dawn.json"
       }
     ]
-  },
-  "license": "MIT"
+  }
 }
